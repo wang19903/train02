@@ -1,0 +1,53 @@
+[
+    {
+      "name": "商品1",
+      "price": 100,
+      "description": "這是商品1的描述。"
+    },
+    {
+      "name": "商品2",
+      "price": 200,
+      "description": "這是商品2的描述。"
+    },
+    {
+      "name": "商品3",
+      "price": 300,
+      "description": "這是商品3的描述。"
+    },
+    {
+      "name": "商品4",
+      "price": 150,
+      "description": "這是商品4的描述。"
+    },
+    {
+      "name": "商品5",
+      "price": 250,
+      "description": "這是商品5的描述。"
+    },
+    {
+      "name": "商品6",
+      "price": 180,
+      "description": "這是商品6的描述。"
+    },
+    {
+      "name": "商品7",
+      "price": 220,
+      "description": "這是商品7的描述。"
+    },
+    {
+      "name": "商品8",
+      "price": 350,
+      "description": "這是商品8的描述。"
+    },
+    {
+      "name": "商品9",
+      "price": 120,
+      "description": "這是商品9的描述。"
+    },
+    {
+      "name": "商品10",
+      "price": 280,
+      "description": "這是商品10的描述。"
+    }
+  ]
+  
