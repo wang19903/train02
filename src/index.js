@@ -2,16 +2,21 @@ import Vue from "vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import "@mdi/font/css/materialdesignicons.css";
-import App from "./App.vue"; // 导入 App 组件
+// import 'material-design-icons-iconfont/dist/material-design-icons.css';
+// import 'roboto-fontface/css/roboto/roboto-fontface.css';
+import router from "./routes"
+import App from "./App.vue"; 
 
 Vue.use(Vuetify);
+
 
 new Vue({
   el: "#app",
   vuetify: new Vuetify({
     icons: {
-      iconfont: 'mdi', // 设置默认图标字体为 Material Design Icons
+      iconfont: 'mdi',
     },
   }),
-  render: (h) => h(App) // 使用 App 作为根组件
+   router,
+  render: (h) => h(App)
 });

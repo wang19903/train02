@@ -1,0 +1,10 @@
+載入方式不同這邊的代碼要修改
+
+index.js要render: (h) => h(App)
+
+app.vue要用v-app包起全部元件
+<template>
+    <v-app>
+    <Navbar></Navbar>
+    </v-app>
+</template>
